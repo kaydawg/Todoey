@@ -5,7 +5,31 @@
 	<key>logFormatVersion</key>
 	<integer>9</integer>
 	<key>logs</key>
-	<dict/>
+	<dict>
+		<key>A561C4E9-8A49-471A-93C1-ED6137E9F3CE</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
+			<key>fileName</key>
+			<string>A561C4E9-8A49-471A-93C1-ED6137E9F3CE.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>signature</key>
+			<string>Todoey-cdfqtaxrmyhqkrcbfxxbhlqvbxed</string>
+			<key>timeStartedRecording</key>
+			<real>559687009.26788902</real>
+			<key>timeStoppedRecording</key>
+			<real>559687010.61488605</real>
+			<key>title</key>
+			<string>Build target Todoey</string>
+			<key>uniqueIdentifier</key>
+			<string>A561C4E9-8A49-471A-93C1-ED6137E9F3CE</string>
+		</dict>
+	</dict>
 	<key>preserveOldLogs</key>
 	<true/>
 </dict>

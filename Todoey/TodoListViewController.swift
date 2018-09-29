@@ -11,10 +11,17 @@ import UIKit
 class TodoListViewController: UITableViewController {
 
     var itemArray = ["Call Zani", "Remind Mum", "Call the doctor"]
+    let USER_DEFAULTS_KEY = "TodoListArray"
+    
+    let defaults = UserDefaults.standard
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        if let items = defaults.array(forKey: USER_DEFAULTS_KEY) as? [String]{
+            itemArray = items
+        }
     }
     
     //MARK - Tableview Datasource methods
@@ -55,9 +62,10 @@ class TodoListViewController: UITableViewController {
             //What will happen when user clicks the Add Item button on our UIAlert
             self.updateTodoList(textField.text!)
             
+            self.updateDefaults()
+            
             self.tableView.reloadData()
             
-        
             print(self.itemArray)
             
         }
@@ -76,6 +84,10 @@ class TodoListViewController: UITableViewController {
     //MARK - Utility methods
     func updateTodoList(_ itemText : String){
         itemArray.append(itemText)
+    }
+    
+    func updateDefaults() {
+        defaults.set(itemArray, forKey: USER_DEFAULTS_KEY)
     }
     
 }

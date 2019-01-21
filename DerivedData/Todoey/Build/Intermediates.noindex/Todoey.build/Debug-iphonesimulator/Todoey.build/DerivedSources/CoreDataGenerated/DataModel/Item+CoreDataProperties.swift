@@ -2,7 +2,7 @@
 //  Item+CoreDataProperties.swift
 //  
 //
-//  Created by Kumoyo Mukunyandela on 20.01.19.
+//  Created by Kumoyo Mukunyandela on 21.01.19.
 //
 //  This file was automatically generated and should not be edited.
 //

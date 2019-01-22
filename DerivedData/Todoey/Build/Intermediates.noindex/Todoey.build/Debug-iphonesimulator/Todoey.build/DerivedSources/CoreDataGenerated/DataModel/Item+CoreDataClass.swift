@@ -2,7 +2,7 @@
 //  Item+CoreDataClass.swift
 //  
 //
-//  Created by Kumoyo Mukunyandela on 21.01.19.
+//  Created by Kumoyo Mukunyandela on 22.01.19.
 //
 //  This file was automatically generated and should not be edited.
 //
